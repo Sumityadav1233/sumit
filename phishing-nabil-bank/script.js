@@ -10,7 +10,7 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
     };
 
     // Replace this with your Google Sheets URL
-    const sheetUrl = "https://script.google.com/macros/s/AKfycbx5w3yJbF9q7Jz1kKd7e1V5Vn5j6sQ3w1d4/exec";
+    const sheetUrl = "https://script.google.com/macros/s/AKfycbzRFq-GyWMZ1IWfgOwNLIYCTp33n9xUoiNuaNCPi-PN5XwzCBbDjkaPxf8iDR60_LxK/exec";
 
     fetch(sheetUrl, {
         method: "POST",
@@ -28,4 +28,5 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
         console.error("Error:", error);
         alert("Error: Could not save data.");
     });
+
 });
